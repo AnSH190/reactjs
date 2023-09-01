@@ -1,8 +1,6 @@
 import React, {useState} from "react";
 import "./Mini.css";
 import user from "../Assets/person.jpg";
-import log from "../LoginSignUp/LoginSignUp";
-import LoginSignUp from "../LoginSignUp/LoginSignUp";
 
 const Mini = () => {
   const [action, setAction] = useState("My Profile");
@@ -15,9 +13,7 @@ const Mini = () => {
             <img src={user} alt="Profile" className="pfp" />
             <p id="name">Ankush Vaswani </p>
           </div>
-          <button className="log">
-            <a href="../LoginSignUp">Log In</a>
-          </button>
+          <button className="log">Log In</button>
         </div>
         <div className="greetting">
           {/* <img src={user} alt="" className='pfp' /> */}
